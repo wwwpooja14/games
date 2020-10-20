@@ -1,5 +1,6 @@
 var turn = 1;
 
+
 function playerAction(element) {
     console.log(element);
     if (turn == 1) {
