@@ -1,0 +1,99 @@
+.container {
+    width: 320px;
+    height: 400px;
+    align-items: center;
+}
+
+#display {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    text-align: right;
+    padding: 19px 12px;
+    font-size: 24px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input {
+    outline: none;
+}
+
+#button {
+    width: 80px;
+    height: 50px;
+    font-size: 24px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.four {
+    position: absolute;
+    top: 197px;
+}
+
+.five {
+    position: absolute;
+    top: 197px;
+    left: 88px;
+}
+
+.six {
+    position: absolute;
+    top: 197px;
+    left: 169px;
+}
+
+.one {
+    position: absolute;
+    top: 247px;
+}
+
+.two {
+    position: absolute;
+    top: 247px;
+    left: 88px;
+}
+
+.three {
+    position: absolute;
+    top: 247px;
+    left: 169px;
+}
+
+.dot {
+    position: absolute;
+    top: 297px;
+    border-bottom-left-radius: 7px;
+}
+
+.zero {
+    position: absolute;
+    top: 297px;
+    left: 88px;
+}
+
+.clear {
+    position: absolute;
+    top: 297px;
+    left: 169px;
+}
+
+#button.equal {
+    font-size: 30px;
+    width: 80px;
+    height: 200px;
+    position: absolute;
+    top: 146px;
+    left: 249px;
+    background-color: rgb(247, 114, 66);
+    border-bottom-right-radius: 7px;
+}
+
+button:hover {
+    background-color: rgb(209, 183, 157);
+}

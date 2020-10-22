@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calcu.css" />
+</head>
+
+<body>
+    <a href="https://drive.google.com/drive/u/0/folders/12Vao7aGCPek-o3I7bGcvKLytq5SFO3UD">
+photo
+    </a>
+    <div class="container">
+        <div class="calculator">
+            <div class="display">
+                <form name="forms">
+                    <input type="text" name="text" id="display">
+
+
+                    <div class="keys">
+                        <input type="button" class="plus" value="+" id="button" onclick="forms.text.value +='+'">
+                        <input type="button" class="minus" value="-" id="button" onclick="forms.text.value +='-'">
+                        <input type="button" class="multiply" value="*" id="button" onclick="forms.text.value +='*'">
+                        <input type="button" class="divide" value="/" id="button" onclick="forms.text.value +='/'">
+                        <input type="button" class="seven" value="7" id="button" onclick="forms.text.value +='7'">
+
+                        <input type="button" class="eight" value="8" id="button" onclick="forms.text.value +='8'">
+                        <input type="button" class="nine" value="9" id="button" onclick="forms.text.value +='9'">
+                        <input type="button" class="four" value="4" id="button" onclick="forms.text.value +='4'">
+                        <input type="button" class="five" value="5" id="button" onclick="forms.text.value +='5'">
+                        <input type="button" class="six" value="6" id="button" onclick="forms.text.value +='6'">
+                        <input type="button" class="one" value="1" id="button" onclick="forms.text.value +='1'">
+                        <input type="button" class="two" value="2" id="button" onclick="forms.text.value +='2'">
+                        <input type="button" class="three" value="3" id="button" onclick="forms.text.value +='3'">
+                        <input type="button" class="dot" value="." id="button" onclick="forms.text.value +='.'">
+
+                        <input type="button" class="zero" value="0" id="button" onclick="forms.text.value +='0'">
+                        <input type="button" class="clear" value="C" id="button" onclick="forms.text.value =' '">
+                        <input type="button" class="equal" value="=" id="button" onclick="forms.text.value = eval(forms.text.value) ">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
