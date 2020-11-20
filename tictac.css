@@ -1,40 +1,18 @@
-body {
-    background: red;
+body{
+    background: chocolate;
+    align-items: center;
 }
-
-.messagesection {
-    height: 50px;
+.game{
+    width: 500px;
+    background-color:rgb(0, 195, 255) ;
+    display: grid;
+    grid-template-columns: 33.3% 33.4% 33.3%;
+    margin: 139px 452px 189px;;
+}
+.game div{
+    height: 100px;
+    border: 2px solid white;
+    color: #ffffff;
     text-align: center;
-    color: white;
-    font-weight: bolder;
-    font-size: 20px;
-}
-
-.gameboard {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 300px;
-    height: 300px;
-}
-
-.row {
-    height: 32%;
-}
-
-.col {
-    height: 100%;
-    width: 32%;
-    border: 2px solid black;
-    float: left;
-    font-size: 70px;
-    font-weight: bolder;
-    color: white;
-    text-align: center;
-    cursor: pointer;
-}
-
-.col:hover {
-    background: tomato;
+    font-size: 72px;
 }

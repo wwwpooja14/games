@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function maskify(cc) {
+            return cc.split("").map((letter, idx) => idx < cc.length - 4 ? "#" : letter)
+                .join("");
+        }
+        console.log(maskify("213456783546554"));
+    </script>
+</body>
+
+</html>
