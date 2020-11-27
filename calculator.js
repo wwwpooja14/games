@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (operator != "") holdOperators.push(operator);
         operator = "";
 
-        console.log("temp number: " + tmpNumber);
+        console.log("tmp number: " + tmpNumber);
 
         equationElement.innerHTML = equationElement.innerHTML + dataValue;
     });
